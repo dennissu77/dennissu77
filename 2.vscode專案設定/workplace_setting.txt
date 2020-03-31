@@ -1,0 +1,22 @@
+{
+    // Workspace Settings
+
+    // virtual environments 中的 python 執行檔
+     "python.pythonPath": "C:\\Users\\dennissu\\Desktop\\python_venv\\venv_1\\Scripts\\python.exe",
+
+    //C:\Users\dennissu\Desktop\python_venv\venv_1\Scripts
+    // 可以設定你放全部的 venvs 環境的根目錄資料夾
+    "python.venvPath": "C:\\Users\\dennissu\\Desktop\\python_venv",
+    //C:\Users\dennissu\Desktop\python_venv\venv_1
+
+    "python.terminal.activateEnvironment": true, // 自動啟動環境
+    "python.linting.pylintEnabled": true,  // 需要 pip install pylint
+    "python.linting.enabled": true,  // 需要 pip install pylint
+}
+
+
+
+
+1.快捷鍵 Ctrl+Shift+P，然後輸入 settings Workspace Settings
+2.選虛擬環境 //路徑要設對"python.pythonPath""python.venvPath"
+3.快捷鍵 Ctrl+Shift+` 開啟 terminal，

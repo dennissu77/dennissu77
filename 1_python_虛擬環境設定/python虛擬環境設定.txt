@@ -1,0 +1,11 @@
+//先cd到虛擬環境的資料夾 
+python -m venv tutorial-venv        //在裡面建立一個虛擬環境
+tutorial-venv\Scripts\activate.bat  //啟動虛擬環境
+//(tutorial-venv)  看到字樣代表啟動須以環境
+//執行 deactivate.bat 退出虛擬環境
+pip freeze  //看環境裡有甚麼組件
+
+
+
+pip install -r requirements.txt//把require資料裡寫的模組安裝起來
+pip list
